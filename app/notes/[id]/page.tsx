@@ -13,7 +13,7 @@ export async function generateMetadata({ params }: {params: Promise<{ id: string
     openGraph:{
     title: `Note: ${note.title}`,
     description: note.content.slice(0, 30),
-    url: "https://notehub.com/",
+    url: `https://08-zustand-gules-nine.vercel.app/notes/${id}`,
     images: [{
       url: "https://ac.goit.global/fullstack/react/notehub-og-meta.jpg",
       width: 1200,
